@@ -1,0 +1,34 @@
+# Environment & Secrets
+.env
+.env.*
+core/.env
+core/.env.*
+assets/admin/push_config.json
+
+# Vendors & Dependencies
+vendor/
+core/vendor/
+node_modules/
+core/node_modules/
+
+# Storage & Framework Cache
+core/storage/*.key
+core/storage/pail
+core/storage/framework/cache/*
+!core/storage/framework/cache/.gitkeep
+core/storage/framework/sessions/*
+!core/storage/framework/sessions/.gitkeep
+core/storage/framework/views/*
+!core/storage/framework/views/.gitkeep
+core/storage/logs/*
+!core/storage/logs/.gitkeep
+core/temp/*
+!core/temp/.gitkeep
+
+# IDE & OS
+.idea/
+.vscode/
+.fleet/
+Thumbs.db
+Desktop.ini
+*.log

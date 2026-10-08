@@ -1,0 +1,1 @@
+var firebaseConfig = {"apiKey":"AIzaSyC34j1ArODJLy56MfrN66LGadBKu060S90","authDomain":"payqra.firebaseapp.com","projectId":"payqra","storageBucket":"payqra.firebasestorage.app","messagingSenderId":"567769333948","appId":"1:567769333948:web:64100d22c3386ebc4b90b9","measurementId":"G-692P6X9H94"}

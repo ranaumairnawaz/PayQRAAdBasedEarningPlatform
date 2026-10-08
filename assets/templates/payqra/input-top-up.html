@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from landing-payqra.vercel.app/PayQra/input-top-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Dec 2025 18:24:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="images/logo/40.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/logo/40.png" />
+
+    <title>PayQra</title>
+</head>
+
+<body>
+    <!-- preloade -->
+    <div class="preload preload-container">
+        <div class="logo-img">
+            <img src="images/logo/logo.svg" alt="">
+        </div>
+        <div class="spinner-circle lg success">
+            <span class="spinner-circle1 spinner-child"></span>
+            <span class="spinner-circle2 spinner-child"></span>
+            <span class="spinner-circle3 spinner-child"></span>
+            <span class="spinner-circle4 spinner-child"></span>
+            <span class="spinner-circle5 spinner-child"></span>
+            <span class="spinner-circle6 spinner-child"></span>
+            <span class="spinner-circle7 spinner-child"></span>
+            <span class="spinner-circle8 spinner-child"></span>
+            <span class="spinner-circle9 spinner-child"></span>
+        </div>
+    </div>
+    <!-- /preload -->
+    <div class="wrap">
+        <div class="wg-top-up pb-63">
+
+            <div class="header-2 mb-12">
+                <div class="tf-container">
+                    <div class="header-content">
+                        <a href="#" class="tf-btn-arrow back-btn">
+                            <i class="icon-arrow-narrow-left"></i>
+                        </a>
+                        <h5 class="title fw-5">
+                            Top Up
+                        </h5>
+                        <a href="index-2.html" class="btn-right">
+                            <i class="icon-home"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tf-container">
+
+                <a href="#" class="company-list-item mb-12">
+                    <div class="icon">
+                        <img src="images/icons/boltshift.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h6 class="name-company fw-5">BoltShift Top Up</h6>
+                        <p class="phone fw-5">+1 707 797 0462</p>
+                    </div>
+                </a>
+
+                <div class="wg-top-up-input mb-25">
+                    <ul class="grid-2 gap-12 mb-16">
+                        <li><a href="javascript:void(0);" class="tag-money"><span>$ 5.0</span></a></li>
+                        <li><a href="javascript:void(0);" class="tag-money"><span>$ 10.0</span></a></li>
+                        <li><a href="javascript:void(0);" class="tag-money active"><span>$ 15.0</span></a></li>
+                        <li><a href="javascript:void(0);" class="tag-money"><span>$ 20.0</span></a></li>
+                    </ul>
+
+                    <div class="accent-box mb-25">
+                        <fieldset class="mb-24">
+                            <label for="input-accent" class="text-medium fw-5">Nominal balance</label>
+                            <div class="mt-12 box-input-field">
+                                <input type="text" value="15.0" required class="clear-ip value_input" id="input-accent">
+                            </div>
+                        </fieldset>
+                        <input type="text" class="style-border" placeholder="Description" required>
+                    </div>
+                </div>
+
+                <div class="card-payment mb-24 v4">
+                    <div class="image-item">
+                        <img loading="lazy" alt="img" src="images/icons/img-item-5.png">
+                    </div>
+
+                    <div class="image-item item-2">
+                        <img loading="lazy" alt="img" src="images/icons/img-item-6.png">
+                    </div>
+
+                    <div class="top-card d-flex justify-content-between">
+                        <div class="left">
+                            <div class="text fw-5 text-medium">
+                                Available Balance
+                            </div>
+                            <div class="price fw-6">
+                                $12,253.70
+                            </div>
+                        </div>
+                        <div class="right">
+                            <select class="image-select image-2 style-default type-currencies">
+                                <option selected data-thumbnail="images/icons/us.png"></option>
+                                <option data-thumbnail="images/icons/vn.png"></option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#top-up-success" class="tf-btn greyscale" data-bs-toggle="modal">Send</a>
+
+            </div>
+        </div>
+
+        <div class="modal fade modalDown modal-top-up-success" id="top-up-success">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content wg-top-up-success">
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                    <div class="content">
+                        <div class="icon">
+                            <img src="images/icons/img-success.png" alt="">
+                        </div>
+                        <h4 class="title fw-6">
+                            Your Top Up has been
+                            <br>successful
+                        </h4>
+                        <p class="sub-title fw-5">
+                            Your Top Up has been successfully
+                            <br>processed. Thank you for your
+                            <br>transaction
+                        </p>
+                    </div>
+                    <div class="fixed-bottom-btn no-bg">
+                        <div class="tf-container">
+                            <a href="index-2.html" class="tf-btn primary style-3">Done</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/count-down.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swipe-button.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/multiple-modal.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from landing-payqra.vercel.app/PayQra/input-top-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Dec 2025 18:24:59 GMT -->
+</html>

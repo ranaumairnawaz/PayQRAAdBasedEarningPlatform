@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="images/logo/40.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/logo/40.png" />
+
+    <title>PayQra</title>
+</head>
+
+<body class="bg-4">
+    <!-- preloade -->
+    <div class="preload preload-container">
+        <div class="logo-img">
+            <img src="images/logo/logo.svg" alt="">
+        </div>
+        <div class="spinner-circle lg success">
+            <span class="spinner-circle1 spinner-child"></span>
+            <span class="spinner-circle2 spinner-child"></span>
+            <span class="spinner-circle3 spinner-child"></span>
+            <span class="spinner-circle4 spinner-child"></span>
+            <span class="spinner-circle5 spinner-child"></span>
+            <span class="spinner-circle6 spinner-child"></span>
+            <span class="spinner-circle7 spinner-child"></span>
+            <span class="spinner-circle8 spinner-child"></span>
+            <span class="spinner-circle9 spinner-child"></span>
+        </div>
+    </div>
+    <!-- /preload -->
+    <div class="wrap position-relative">
+        <div class="bg-rectangle"></div>
+        <div class="tf-container position-relative">
+            <div class="header-v3 d-flex justify-content-between bg-color-bg pt-8 mb-16">
+                <div class="left">
+                    <div class="name">
+                        <select class="image-select style-default type-currencies bg-color-primary-200">
+                            <option selected data-thumbnail="images/avartar/avartar-1.jpg">Hi, Elvis Presley</option>
+                            <option data-thumbnail="images/avartar/avartar-2.jpg">Hi, Elvis Presley 1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#menu-mobile" data-bs-toggle="modal">
+                        <i class="icon-category"></i>
+                    </a>
+                    <a href="#pop-up-notifications" data-bs-toggle="modal">
+                        <i class="icon-notification-ringing"></i>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-payment mb-24">
+                <div class="image-item">
+                    <img loading="lazy" alt="img" src="images/icons/img-item-1.png">
+                </div>
+                <div class="image-item item-2">
+                    <img loading="lazy" alt="img" src="images/icons/img-item-2.png">
+                </div>
+                <div class="top-card d-flex align-items-center justify-content-between">
+                    <div class="left">
+                        <div class="text fw-5 text-medium">
+                            Available Balance
+                        </div>
+                        <div class="price fw-6">
+                            $12,253.70
+                        </div>
+                    </div>
+                    <div class="right">
+                        <select class="image-select image-2 style-default type-currencies style-no-arrow bg-color-primary-200">
+                            <option selected data-thumbnail="images/icons/us.png"></option>
+                            <option data-thumbnail="images/icons/vn.png"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <div class="left">
+                        <span class="text-medium fw-5">Feb 22, 2024</span>
+                    </div>
+                    <div class="right">
+                        <a href="history.html" class="btn-my-report">
+                            <span>My Report</span>
+                            <div class="icon"><i class="icon-direction-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-box-icon mb-24">
+                <a href="top-up.html" class="box-icon top-up">
+                    <div class="icon">
+                        <i class="icon-mobile-payment"></i>
+                    </div>
+                    <span class="text text-medium fw-5">Top Up</span>
+                </a>
+
+                <a href="select-contact-all-contact-send.html" class="box-icon transfer">
+                    <div class="icon">
+                        <i class="icon-money-send"></i>
+                    </div>
+                    <span class="text text-medium fw-5">Transfer</span>
+                </a>
+                <a href="select-contact-all-contact.html" class="box-icon request">
+                    <div class="icon">
+                        <i class="icon-group"></i>
+                    </div>
+                    <span class="text text-medium fw-5">Request</span>
+                </a>
+                <a href="#more-services" class="box-icon more" data-bs-toggle="modal">
+                    <div class="icon">
+                        <i class="icon-category"></i>
+                    </div>
+                    <span class="text text-medium fw-5">More</span>
+                </a>
+            </div>
+
+            <div class="wg-frequently-contacts mb-24">
+                <div class="d-flex justify-content-between align-items-center mb-16 heading-wg">
+                    <h6 class="title fw-6">Frequently Contacts</h6>
+                    <a href="select-contact-all-contact.html">View All</a>
+                </div>
+
+                <div class="list-box-avartar d-flex align-items-center gap-6">
+                    <a href="add-new-contact.html" class="box-avartar add">
+                        <span class="add-icon">+</span>
+                        <span class="name">Add</span>
+                    </a>
+
+                    <div dir="ltr" class="mt-24 tf-swiper swiper sw-lr" data-preview="4.1" data-space-between="6">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="select-contact-all-contact.html" class="box-avartar">
+                                    <div class="image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-2.jpg">
+                                    </div>
+                                    <span class="name">Carter</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="select-contact-all-contact.html" class="box-avartar">
+                                    <div class="image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-3.jpg">
+                                    </div>
+                                    <span class="name">William</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="select-contact-all-contact.html" class="box-avartar">
+                                    <div class="image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-4.jpg">
+                                    </div>
+                                    <span class="name">Jenkins</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="select-contact-all-contact.html" class="box-avartar">
+                                    <div class="image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-5.jpg">
+                                    </div>
+                                    <span class="name">Rogers</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="select-contact-all-contact.html" class="box-avartar">
+                                    <div class="image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-4.jpg">
+                                    </div>
+                                    <span class="name">Jenkins</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="select-contact-all-contact.html" class="box-avartar">
+                                    <div class="image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-5.jpg">
+                                    </div>
+                                    <span class="name">Rogers</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wg-transaction-history">
+            <div class="tf-container">
+                <div class="d-flex justify-content-between align-items-center mb-16 heading-wg">
+                    <h6 class="title fw-6">Transaction History</h6>
+                    <a href="history.html">View All</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="history.html" class="box-transaction-item">
+                            <div class="image">
+                                <img src="images/avartar/avartar-6.jpg" alt="img" class="img">
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">Cody Lee</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Send</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="history.html" class="box-transaction-item style-noimg">
+                            <div class="image">
+                                SA
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">Sam Charm</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Deposit</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="history.html" class="box-transaction-item">
+                            <div class="image">
+                                <img src="images/avartar/avartar-3.jpg" alt="img" class="img">
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">William</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Traveling</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="history.html" class="box-transaction-item">
+                            <div class="image">
+                                <img src="images/avartar/avartar-3.jpg" alt="img" class="img">
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">William</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Traveling</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="history.html" class="box-transaction-item style-noimg">
+                            <div class="image">
+                                SA
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">Sam Charm</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Deposit</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="history.html" class="box-transaction-item">
+                            <div class="image">
+                                <img src="images/avartar/avartar-3.jpg" alt="img" class="img">
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">William</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Traveling</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="history.html" class="box-transaction-item">
+                            <div class="image">
+                                <img src="images/avartar/avartar-3.jpg" alt="img" class="img">
+                            </div>
+                            <div class="content">
+                                <div class="top d-flex justify-content-between align-items-center">
+                                    <p class="name fw-6">William</p>
+                                    <p class="price fw-5">-$220.00</p>
+                                </div>
+                                <div class="bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-medium">10:45 PM</p>
+                                    <p class="text-medium">Traveling</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menubar-footer footer-fixed">
+            <div class="image-bg">
+                <img src="images/widget/bg-bottom-tab.png" alt="img">
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="left inner-bar position-relative">
+                    <a href="index-2.html" class="inner-bar-item active">
+                        <i class="icon-home"></i>
+                        <span class="text-small fw-5">Home</span>
+                    </a>
+                    <a href="my-cards.html" class="inner-bar-item">
+                        <i class="icon-card"></i>
+                        <span class="text-small fw-5">My Cards</span>
+                    </a>
+                </div>
+                <div class="middle">
+                    <a href="#more-services" class="inner-bar-item v2" data-bs-toggle="modal">
+                        <i class="icon-scan"></i>
+                    </a>
+                </div>
+                <div class="left inner-bar position-relative">
+                    <a href="chat.html" class="inner-bar-item">
+                        <i class="icon-message"></i>
+                        <span class="text-small fw-5">Message</span>
+                    </a>
+                    <a href="settings.html" class="inner-bar-item">
+                        <i class="icon-profile"></i>
+                        <span class="text-small fw-5">Profile</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modalLeft pop-up-notifications" id="pop-up-notifications">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="wg-list-notifications overflow-auto">
+                        <div class="header-2 mb-12 header-fix">
+                            <div class="tf-container">
+                                <div class="header-content">
+                                    <a href="#" class="tf-btn-arrow" data-bs-dismiss="modal">
+                                        <i class="icon-arrow-narrow-left"></i>
+                                    </a>
+                                    <h6 class="title fw-5">
+                                        Notification
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wg-tab style-2">
+                            <div class="tab-slide">
+                                <ul class="tab-product" role="tablist">
+                                    <li class="item-slide-effect"></li>
+                                    <li class="nav-tab-item nav-item active" role="presentation">
+                                        <a href="#tab1" data-bs-toggle="tab" role="tab"
+                                            class="nav-link active text-small">All</a>
+                                    </li>
+                                    <li class="nav-tab-item nav-item" role="presentation">
+                                        <a href="#tab2" data-bs-toggle="tab" role="tab" class="nav-link text-small">Remind</a>
+                                    </li>
+                                    <li class="nav-tab-item nav-item" role="presentation">
+                                        <a href="#tab3" data-bs-toggle="tab" role="tab"
+                                            class="nav-link text-small">Transaction</a>
+                                    </li>
+                                    <li class="nav-tab-item nav-item" role="presentation">
+                                        <a href="#tab4" data-bs-toggle="tab" role="tab" class="nav-link text-small">Promotion</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="tab1" role="tabpanel">
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="tab-pane" id="tab2" role="tabpanel">
+                                
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="tab-pane" id="tab3" role="tabpanel">
+                               
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="tab-pane" id="tab4" role="tabpanel">
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon">
+                                        <i class="icon-logo-notifications"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="notifications-item">
+                                    <div class="img-icon image">
+                                        <img loading="lazy" alt="img" width="48" height="48"
+                                            src="images/avartar/avartar-13.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title fw-7">
+                                            Discount Available
+                                        </p>
+                                        <p class="text text-medium">We recommend a 5% discount for <span
+                                                class="fw-7">Tesla
+                                                Model X</span> in San Fransisco.</p>
+                                        <p class="time-notifications text-small"><i class="icon-clock"></i> Jun 12, 2022
+                                            at
+                                            02:00 PM</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modalRight pop-up-menu-mobile" id="menu-mobile">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-sidebar">
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                    <div class="sidebar-header">
+                        <a href="index-2.html" class="sidebar-logo">
+                            <img src="images/logo/144.png" alt="img">
+                        </a>
+                        <p class="text-medium fw-7">PayQra E-Wallet Mobile App</p>
+                    </div>
+                    <div class="sidebar-content">
+                        <div class="d-flex gap-10 align-items-center pb-20 line-bt">
+                            <div class="avatar avt-40">
+                                <img src="images/avartar/avartar-1.jpg" alt="img">
+                            </div>
+                            <div class="content-right">
+                                <p class="text-1">Good morning</p>
+                                <h6 class="fw-7">Hello! Smith</h6>
+                            </div>
+                        </div>
+                        <ul class="pt-20 pb-20">
+                            <li class="text-xlarge fw-7">Main menu</li>
+                            <li class="mt-18 sub-menu" id="accordionExample">
+                                <a href="#menu-home" class="nav-link-item collapsed"
+                                    data-bs-toggle="collapse"><span>Home</span></a>
+                                <div id="menu-home" class="nav-content collapse" data-bs-parent="#accordionExample">
+                                    <ul>
+                                        <li>
+                                            <a href="index-2.html" class="nav-link-item no-page"><span>Home</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="home-v2.html" class="nav-link-item no-page"><span>Home 2</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mt-16">
+                                <a href="javascript:void(0);" class="nav-link-item btn-choose-page">
+                                    <span>Pages</span>
+                                </a>
+                            </li>
+                            <li class="mt-16">
+                                <a href="javascript:void(0);" class="nav-link-item btn-choose-component">
+                                    <span>Components</span>
+                                </a>
+                            </li>
+
+                            <li class="mt-16">
+                                <a href="settings.html" class="nav-link-item no-page">
+                                    <span>Profile</span>
+                                </a>
+                            </li>
+
+                            <li class="mt-16">
+                                <a href="logout.html" class="nav-link-item no-page">
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modalRight" id="modalPage">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-second">
+                    <div class="header-2 mb-0">
+                        <div class="tf-container">
+                            <div class="header-content">
+                                <a href="javascript:void(0);" class="tf-btn-arrow" data-bs-dismiss="modal">
+                                    <i class="icon-arrow-narrow-left"></i>
+                                </a>
+                                <h6>Pages</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-auto pb-32">
+                        <div class="tf-container">
+                            <ul>
+                                <li><a href="boarding.html" class="nav-link-item no-page">
+                                        <span>Boarding</span>
+                                    </a></li>
+                                <li><a href="boarding-2.html" class="nav-link-item pt-16 no-page">
+                                        <span>Boarding 02</span>
+                                    </a></li>
+                                <li><a href="boarding-3.html" class="nav-link-item pt-16 no-page">
+                                        <span>Boarding 03</span>
+                                    </a></li>
+                                <li><a href="login.html" class="nav-link-item pt-16 no-page">
+                                        <span>Login</span>
+                                    </a></li>
+                                <li><a href="sign-up.html" class="nav-link-item pt-16 no-page">
+                                        <span>Sign Up</span>
+                                    </a></li>
+                                <li><a href="forgot-password.html" class="nav-link-item pt-16 no-page">
+                                        <span>Forgot Password</span>
+                                    </a></li>
+                                <li><a href="enter-verification-code.html" class="nav-link-item pt-16 no-page">
+                                        <span>Verification</span>
+                                    </a></li>
+                                <li><a href="enter-new-password.html" class="nav-link-item pt-16 no-page">
+                                        <span>Reset Password</span>
+                                    </a></li>
+                                <li><a href="index-2.html" class="nav-link-item pt-16 no-page">
+                                        <span>Home</span>
+                                    </a></li>
+                                <li><a href="home-v2.html" class="nav-link-item pt-16 no-page">
+                                        <span>Home 2</span>
+                                    </a></li>
+                                <li><a href="edit-profile.html" class="nav-link-item pt-16 no-page">
+                                        <span>Edit Profile</span>
+                                    </a></li>
+                                <li><a href="enable-fingerprint.html" class="nav-link-item pt-16 no-page">
+                                        <span>Enable Fingerprint</span>
+                                    </a></li>
+                                <li><a href="enable-face-id.html" class="nav-link-item pt-16 no-page">
+                                        <span>Face Id</span>
+                                    </a></li>
+                                <li><a href="enable-face-id2.html" class="nav-link-item pt-16 no-page">
+                                        <span>Face Id 2</span>
+                                    </a></li>
+                                <li><a href="proof-of-residency.html" class="nav-link-item pt-16 no-page">
+                                        <span>Proof Of Residency</span>
+                                    </a></li>
+                                <li><a href="upload-photo-id-card.html" class="nav-link-item pt-16 no-page">
+                                        <span>Upload - Photo ID Card</span>
+                                    </a></li>
+                                <li><a href="my-cards.html" class="nav-link-item pt-16 no-page">
+                                        <span>My Cards</span>
+                                    </a></li>
+                                <li><a href="add-new-card.html" class="nav-link-item pt-16 no-page">
+                                        <span>Add New Card</span>
+                                    </a></li>
+                                <li><a href="select-contact-all-contact.html" class="nav-link-item pt-16 no-page">
+                                        <span>Select Contact All Contact</span>
+                                    </a></li>
+                                <li><a href="select-contact.html" class="nav-link-item pt-16 no-page">
+                                        <span>Select Contact</span>
+                                    </a></li>
+                                <li><a href="send-money.html" class="nav-link-item pt-16 no-page">
+                                        <span>Send Money</span>
+                                    </a></li>
+                                <li><a href="review-transtion.html" class="nav-link-item pt-16 no-page">
+                                        <span>Rerview Transtion</span>
+                                    </a></li>
+                                <li><a href="request-money-search.html" class="nav-link-item pt-16 no-page">
+                                        <span>Request Money Search</span>
+                                    </a></li>
+                                <li><a href="request-money.html" class="nav-link-item pt-16 no-page">
+                                        <span>Request Money</span>
+                                    </a></li>
+                                <li><a href="payment.html" class="nav-link-item pt-16 no-page">
+                                        <span>Payment</span>
+                                    </a></li>
+                                <li><a href="payment-method.html" class="nav-link-item pt-16 no-page">
+                                        <span>Payment Method</span>
+                                    </a></li>
+                                <li><a href="top-up.html" class="nav-link-item pt-16 no-page">
+                                        <span>Top Up</span>
+                                    </a></li>
+                                <li><a href="input-top-up.html" class="nav-link-item pt-16 no-page">
+                                        <span>Input Top Up</span>
+                                    </a></li>
+                                <li><a href="settings.html" class="nav-link-item pt-16 no-page">
+                                        <span>Settings</span>
+                                    </a></li>
+                                <li><a href="notification-settings.html" class="nav-link-item pt-16 no-page">
+                                        <span>Notification Settings</span>
+                                    </a></li>
+                                <li><a href="change-language.html" class="nav-link-item pt-16 no-page">
+                                        <span>Change Language</span>
+                                    </a></li>
+                                <li><a href="link-account.html" class="nav-link-item pt-16 no-page">
+                                        <span>Link Account</span>
+                                    </a></li>
+                                <li><a href="password-change.html" class="nav-link-item pt-16 no-page">
+                                        <span>Password Change</span>
+                                    </a></li>
+                                <li><a href="delete-account.html" class="nav-link-item pt-16 no-page">
+                                        <span>Delete Account</span>
+                                    </a></li>
+                                <li><a href="support-ticket.html" class="nav-link-item pt-16 no-page">
+                                        <span>Support Ticket</span>
+                                    </a></li>
+                                <li><a href="message.html" class="nav-link-item pt-16 no-page">
+                                        <span>Message</span>
+                                    </a></li>
+                                <li><a href="terms-and-conditions.html" class="nav-link-item pt-16 no-page">
+                                        <span>Terms And Conditions</span>
+                                    </a></li>
+                                <li><a href="app-info.html" class="nav-link-item pt-16 no-page">
+                                        <span>App Info</span>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modalRight" id="modalComponent">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-second">
+                    <div class="header-2 mb-0">
+                        <div class="tf-container">
+                            <div class="header-content">
+                                <a href="javascript:void(0);" class="tf-btn-arrow" data-bs-dismiss="modal">
+                                    <i class="icon-arrow-narrow-left"></i>
+                                </a>
+                                <h6>Component</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-auto pb-32">
+                        <div class="tf-container">
+                            <ul>
+                                <li><a href="ui-skeleton.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Skeleton</span>
+                                    </a></li>
+                                <li><a href="ui-empty-states.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Empty States</span>
+                                    </a></li>
+                                <li><a href="ui-button.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Button</span>
+                                    </a></li>
+                                <li><a href="ui-radio-button.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Radio button</span>
+                                    </a></li>
+                                <li><a href="ui-input.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Input</span>
+                                    </a></li>
+                                <li><a href="ui-search.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Search</span>
+                                    </a></li>
+                                <li><a href="ui-top-bar.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Top Bar</span>
+                                    </a></li>
+
+                                <li><a href="ui-chat.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Chat</span>
+                                    </a></li>
+
+                                <li><a href="ui-simulation-credit.html"
+                                        class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Simulation Credit</span>
+                                    </a></li>
+
+                                <li><a href="ui-notifications.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Notifications</span>
+                                    </a></li>
+
+                                <li><a href="ui-switch.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Switch</span>
+                                    </a></li>
+                                <li><a href="ui-payment.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Payment</span>
+                                    </a></li>
+                                <li><a href="ui-vouchers.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>Vouchers</span>
+                                    </a></li>
+                                <li><a href="ui-user-review.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                                        <span>User Review</span>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modalDown pop-up-more-services" id="more-services">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="wg-more-services">
+                        <div class="tf-container">
+                            <div class="divider mb-24"></div>
+                            <h5 class="title mb-24">More Services</h5>
+                            <div class="list-box-icon mb-24">
+                                <a href="top-up.html" class="box-icon v3">
+                                    <div class="icon">
+                                        <i class="icon-top-up"></i>
+                                    </div>
+                                    <span class="text text-medium fw-5">Top Up</span>
+                                </a>
+                                <a href="select-contact-all-contact-send.html" class="box-icon v3">
+                                    <div class="icon">
+                                        <i class="icon-transfer"></i>
+                                    </div>
+                                    <span class="text text-medium fw-5">Transfer</span>
+                                </a>
+                                <a href="top-up.html" class="box-icon v3">
+                                    <div class="icon">
+                                        <i class="icon-withdraw"></i>
+                                    </div>
+                                    <span class="text text-medium fw-5">Withdraw</span>
+                                </a>
+                            </div>
+                            <div class="list-box-icon">
+                                <a href="qr-code.html" class="box-icon v3">
+                                    <div class="icon">
+                                        <i class="icon-mobile-pay"></i>
+                                    </div>
+                                    <span class="text text-medium fw-5">Mobile Pay</span>
+                                </a>
+                                <a href="qr-code.html" class="box-icon v3">
+                                    <div class="icon">
+                                        <i class="icon-scan-2"></i>
+                                    </div>
+                                    <span class="text text-medium fw-5">Scan</span>
+                                </a>
+                                <a href="history.html" class="box-icon v3">
+                                    <div class="icon">
+                                        <img src="images/icons/pay-bill-2.svg" alt="">
+                                    </div>
+                                    <span class="text text-medium fw-5">History</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/count-down.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/multiple-modal.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from landing-payqra.vercel.app/PayQra/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Dec 2025 18:24:32 GMT -->
+</html>

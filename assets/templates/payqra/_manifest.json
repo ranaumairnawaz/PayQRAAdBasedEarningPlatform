@@ -1,0 +1,47 @@
+{
+  "name": "payqra app",
+  "short_name": "Payqra app",
+  "lang": "en-US",
+  "start_url": "https://payqra.depelinoholdings.com/user/dashboard",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#581C87",
+  "description": "wallet app",
+  "icons": [
+    {
+      "src": "images/logo/40.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo/96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo/168.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from landing-payqra.vercel.app/PayQra/request-money-search.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Dec 2025 18:24:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="images/logo/40.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/logo/40.png" />
+
+    <title>PayQra</title>
+</head>
+
+<body>
+    <!-- preloade -->
+    <div class="preload preload-container">
+        <div class="logo-img">
+            <img src="images/logo/logo.svg" alt="">
+        </div>
+        <div class="spinner-circle lg success">
+            <span class="spinner-circle1 spinner-child"></span>
+            <span class="spinner-circle2 spinner-child"></span>
+            <span class="spinner-circle3 spinner-child"></span>
+            <span class="spinner-circle4 spinner-child"></span>
+            <span class="spinner-circle5 spinner-child"></span>
+            <span class="spinner-circle6 spinner-child"></span>
+            <span class="spinner-circle7 spinner-child"></span>
+            <span class="spinner-circle8 spinner-child"></span>
+            <span class="spinner-circle9 spinner-child"></span>
+        </div>
+    </div>
+    <!-- /preload -->
+    <div class="wrap">
+        <div class="header-2 header-fix">
+            <div class="tf-container">
+                <div class="header-content">
+                    <a href="#" class="tf-btn-arrow back-btn">
+                        <i class="icon-arrow-narrow-left"></i>
+                    </a>
+                    <h6 class="title fw-5">
+                        Request Money
+                    </h6>
+                    <a href="index-2.html" class="btn-right">
+                        <i class="icon-home"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="tf-container pt-80">
+            <form class="form-search mb-30">
+                <fieldset class="input-search">
+                    <i class="icon-search"></i>
+                    <input type="text" name="search" id="search" class="style-border border-slate-200"
+                        placeholder="Search..." required>
+                    <a href="#modalFillter" class="fillter-btn" data-bs-toggle="modal">
+                        <i class="icon-filter"></i>
+                    </a>
+                </fieldset>
+            </form>
+        </div>
+        <form action="https://landing-payqra.vercel.app/PayQra/select-contact-all-contact.html" class="pb-90">
+            <div class="tf-container">
+                <ul>
+                    <li>
+                        <div class="mb-16 proof-item style-2">
+                            <input type="radio" id="single-person" class="tf-check-rounded style-primary"
+                                name="proof-item" checked>
+                            <label for="single-person">
+                                <i class="icon-user-2"></i>
+                                <span class="text">Single Person</span>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mb-16 proof-item style-2">
+                            <input type="radio" id="group-of-people" class="tf-check-rounded style-primary"
+                                name="proof-item">
+                            <label for="group-of-people">
+                                <i class="icon-users-1"></i>
+                                <span class="text">Group of People</span>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mb-16 proof-item style-2">
+                            <input type="radio" id="everyone" class="tf-check-rounded style-primary" name="proof-item">
+                            <label for="everyone">
+                                <i class="icon-users-2"></i>
+                                <span class="text">Everyone</span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="fixed-bottom-btn">
+                <div class="tf-container">
+                    <button type="submit" class="tf-btn primary">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="modal fade modalRight" id="modalFillter">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-fillter">
+                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
+                    <div class="tf-container">
+                        <div class="simulation-credit-card">
+                            <div class="range-slider-box top-card">
+                                <div class="title text-medium fw-7 mb-12">
+                                    Down payment
+                                </div>
+                                <div class="card-body slider-default style-primary">
+                                    <div id="keypress-two-val"></div>
+                                    <div class="ip-val">
+                                        <div class="input-stroke mt-20">
+                                            <input type="text" id="ip-val-lower"
+                                                class="ip-val-input text-small ip-val-lower">
+                                        </div>
+                                        <div class="input-stroke mt-10">
+                                            <input type="text" id="ip-val-upper"
+                                                class="ip-val-input text-small text-end ip-val-upper fw-7">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="range-slider-box">
+                                <div class="title text-medium fw-7 mb-12">
+                                    Loan tenor
+                                </div>
+                                <div class="card-body slider-default style-success">
+                                    <div id="keypress-two-val-1"></div>
+                                    <div class="ip-val">
+                                        <div class="input-stroke mt-20">
+                                            <input type="text" id="ip-val-lower1"
+                                                class="ip-val-input text-small ip-val-lower">
+                                        </div>
+                                        <div class="input-stroke mt-10">
+                                            <input type="text" id="ip-val-upper1"
+                                                class="ip-val-input text-small text-end ip-val-upper fw-7">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/count-down.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/rangle-slider.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from landing-payqra.vercel.app/PayQra/request-money-search.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Dec 2025 18:24:57 GMT -->
+</html>
