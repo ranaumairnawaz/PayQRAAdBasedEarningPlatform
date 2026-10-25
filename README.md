@@ -1,48 +1,71 @@
-# 💰 PayQRA — Ad-Based Earning & PTC Platform
+# 💰 PayQRA — Ad-Based Earning & PTC Revenue Platform
 
-A comprehensive, enterprise-grade **Paid-To-Click (PTC) and Ad-Based Revenue Platform** engineered with **Laravel 11, PHP 8.3, and MySQL**. PayQRA connects advertisers wanting targeted reach with users earning rewards by viewing advertisements, completing tasks, and participating in multi-tier affiliate referral programs.
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel" alt="Laravel 11">
+  <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php" alt="PHP 8.3">
+  <img src="https://img.shields.io/badge/Gateways-20%2B%20Integrated-success?style=for-the-badge" alt="Payment Gateways">
+  <img src="https://img.shields.io/badge/Security-KYC%20%2B%202FA-blue?style=for-the-badge" alt="Security">
+</p>
+
+---
+
+## 📖 What is PayQRA?
+
+**PayQRA** is an enterprise-scale **Paid-To-Click (PTC) advertising and user reward monetization platform** engineered on **Laravel 11, PHP 8.3, and MySQL**. 
+
+It provides a two-sided marketplace:
+1. **Advertisers** gain high-intent, targeted web traffic, brand views, and campaign engagement.
+2. **Users / Earners** earn digital currency rewards by watching advertisements, completing micro-tasks, and inviting downstream referrals.
+
+---
+
+## 🎯 Why PayQRA? Problem & Solution
+
+| The Challenge | How PayQRA Solves It |
+| :--- | :--- |
+| **Ad Click Bot Fraud:** Advertisers often pay for fake bot clicks on traditional ad networks, resulting in zero real conversions. | Incorporates **Anti-Cheat Timing Engines & Captcha Verification**, ensuring ads are viewed for the complete required duration by real users before rewards unlock. |
+| **Complex Global Payments:** Managing global member payouts and advertiser deposits across borders requires multiple payment processor contracts. | Pre-integrates **over 20 automated payment gateways** (Stripe, BTCPayServer, CoinGate, Razorpay, Mollie, Authorize.Net, Flutterwave, Paystack) alongside custom manual bank transfer verification. |
+| **Low User Retention in Earning Sites:** Users drop off without incentives to return daily. | Features **Tiered Membership Plans & Multi-Level Referral Trees**, unlocking higher daily click limits, higher per-ad rewards, and recurring affiliate commissions. |
 
 ---
 
 ## 🌟 Key Features
 
 ### 👥 Member / Earner Experience
-- **🎯 Ad Viewing Engine:** Interactive countdown timers, anti-cheat captcha verification, and instant balance crediting.
-- **📈 Tiered Membership Plans:** Multiple membership tiers with custom daily click limits, increased per-ad rewards, and faster payouts.
-- **🤝 Multi-Level Referral System:** Generative commission tree rewarding users for direct and downstream signups, ad views, and plan upgrades.
-- **💳 Multi-Gateway Deposits & Withdrawals:** Automated deposit & instant withdrawal processing supporting global fiat and crypto providers.
-- **📊 Real-Time Analytics:** Account activity logs, click history, referral metrics, and earning breakdown.
+- **Interactive Ad Viewing Engine:** Responsive viewing player with animated countdown timers, focus-loss detection, and mathematical captcha verification.
+- **Tiered Membership Subscriptions:** Flexible plans with daily click quotas, bonus reward multipliers, and priority withdrawal processing.
+- **Multi-Level Affiliate Matrix:** Generative multi-tier referral commissions earned on friend registrations, daily ad views, and membership upgrades.
+- **Deposit & Payout Portal:** Automated balance deposits and instant withdrawal requests with real-time status tracking.
 
-### 📢 Advertiser Hub
-- **Create & Manage Campaigns:** Launch PTC advertisements, banner ads, and impression campaigns with real-time budget tracking.
-- **Audience Targeting:** Configure duration, total views, and target parameters for maximum campaign ROI.
+### 📢 Advertiser Command Center
+- **Campaign Creation & Budgeting:** Launch banner ads, text ads, and timed PTC visits with custom CPC (Cost-Per-Click) budgeting.
+- **Geo & Demographic Targeting:** Configure total views, daily view caps, and click durations to maximize campaign ROI.
 
-### 🛡️ Administrative Command Center
-- **Executive Dashboard:** Live metrics on deposit volume, withdrawal liabilities, platform revenue, and active PTC sessions.
-- **Ad & Campaign Moderation:** Approve, pause, or reject advertiser campaigns and manage platform-wide rewards.
-- **Gateway Manager:** 20+ automated payment gateways pre-integrated (Stripe, BTCPay, CoinGate, Razorpay, Mollie, Authorize.Net, etc.) plus custom manual banking channels.
-- **Support Ticket System:** Integrated bidirectional customer support ticket management.
-- **Security & KYC Verification:** Identity verification, two-factor authentication (2FA), and anti-fraud fraud protection.
+### 🛡️ Administrative Oversight Suite
+- **Financial Analytics & Risk Management:** Monitor total deposits, pending withdrawals, active member balances, and platform profit margins.
+- **Campaign & Ad Moderation:** Review and approve advertiser submissions with automated refunding if rejected.
+- **KYC & Two-Factor Authentication:** Built-in customer identity verification (KYC form submission) and Google Authenticator 2FA.
+- **Support Ticket Desk:** Built-in bi-directional customer support ticketing system with file attachments.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Stack
 
 - **Backend:** Laravel 11.x, PHP 8.3
-- **Database:** MySQL 8.0+ / MariaDB 10.4+
-- **Payment Integrations:** Stripe, BTCPayServer, CoinGate, Razorpay, Mollie, Authorize.Net, Twilio, SendGrid
-- **Security:** CSRF protection, rate limiting, anti-bot timing checks, XSS filtering (HTMLPurifier)
+- **Database:** MySQL 8.0+ / MariaDB (High transactional integrity with double-entry accounting)
+- **Payment Gateways:** Stripe, BTCPayServer, CoinGate, Mollie, Razorpay, Authorize.Net, Twilio, SendGrid
+- **Security:** Anti-bot timing algorithms, CSRF validation, XSS filtering (HTMLPurifier), Rate limiting
 
 ---
 
-## 📦 Setup & Deployment
+## 📦 Local Installation & Setup
 
 ### 1. Requirements
-- PHP 8.2 or 8.3 with extensions: `pdo_mysql`, `curl`, `fileinfo`, `gd`, `openssl`, `mbstring`
+- PHP 8.2 or 8.3 with `pdo_mysql`, `curl`, `fileinfo`, `gd`, `openssl`, `mbstring` extensions
 - Composer 2.x
-- MySQL / MariaDB
+- MySQL 8.0+
 
-### 2. Installation
+### 2. Setup Application
 ```bash
 git clone https://github.com/ranaumairnawaz/PayQRAAdBasedEarningPlatform.git
 cd PayQRAAdBasedEarningPlatform
@@ -53,26 +76,16 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 3. Database Configuration
-Edit `core/.env`:
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=payqra_db
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 4. Run Migrations & Seeders
+### 3. Database Migration & Launch
 ```bash
+# In core/
 php artisan migrate --seed
+php artisan serve
 ```
 
 ---
 
 ## 👨‍💻 Author
 **Rana Umair Nawaz**  
-- Founder, [ZedX Solutions](https://github.com/ranaumairnawaz)  
-- [LinkedIn Profile](https://linkedin.com/in/ranaumairnawaz)  
-- [Personal Portfolio](https://umair.zedx-solutions.com)
+- [GitHub Profile](https://github.com/ranaumairnawaz)  
+- [LinkedIn Profile](https://linkedin.com/in/ranaumairnawaz)
